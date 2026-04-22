@@ -32,8 +32,8 @@ WSGI_APPLICATION = 'django_project.django_project.wsgi.application'
 # Application definition
 
 INSTALLED_APPS = [
-    'django_project.users.apps.UsersConfig',
-    'django_project.blog.apps.BlogConfig',
+    'users.apps.UsersConfig',
+    'blog.apps.BlogConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
