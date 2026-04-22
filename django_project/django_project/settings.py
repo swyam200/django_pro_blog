@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", " ['django-pro-blog.onrender.com']").split(" ")
+ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "django-pro-blog.onrender.com").split(" ")
 ROOT_URLCONF = 'django_project.django_project.urls'
 WSGI_APPLICATION = 'django_project.django_project.wsgi.application'
 
