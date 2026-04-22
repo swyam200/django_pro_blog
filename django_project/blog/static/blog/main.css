@@ -1,3 +1,6 @@
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'django_project'),
+]
 body{
     background: #fafafa;
     color: #333333;
