@@ -2,6 +2,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'django_project'),
 ]
 body{
+    padding: 70px;
     background: #fafafa;
     color: #333333;
     margin-top: 5rem;
